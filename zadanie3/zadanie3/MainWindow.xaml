@@ -1,0 +1,33 @@
+﻿<Window x:Class="zadanie3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Dane osoby"
+        Height="350"
+        Width="450">
+
+    <StackPanel Margin="20">
+
+        <TextBlock Text="Imię i nazwisko:"/>
+        <TextBox Text="{Binding ImieNazwisko,
+                                UpdateSourceTrigger=PropertyChanged}"
+                 Margin="0,5,0,10"/>
+
+        <TextBlock Text="Data urodzin (rrrr-MM-dd):"/>
+        <TextBox Text="{Binding DataUrodzin,
+                                UpdateSourceTrigger=PropertyChanged}"
+                 Margin="0,5,0,20"/>
+
+        <TextBlock Text="Pierwsze imię:" FontWeight="Bold"/>
+        <TextBlock Text="{Binding PierwszeImie}"
+                   Margin="0,0,0,10"/>
+
+        <TextBlock Text="Nazwisko:" FontWeight="Bold"/>
+        <TextBlock Text="{Binding Nazwisko}"
+                   Margin="0,0,0,10"/>
+
+        <TextBlock Text="Wiek:" FontWeight="Bold"/>
+        <TextBlock Text="{Binding Wiek}"/>
+
+    </StackPanel>
+
+</Window>

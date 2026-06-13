@@ -1,0 +1,47 @@
+﻿<Application x:Class="zadanie2.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+
+    <Application.Resources>
+
+        <!-- Domyślny styl wszystkich przycisków -->
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="3"/>
+            <Setter Property="BorderThickness" Value="5"/>
+            <Setter Property="Background" Value="LightGray"/>
+            <Setter Property="BorderBrush" Value="Black"/>
+            <Setter Property="Padding" Value="8"/>
+
+            <Style.Triggers>
+
+                <!-- Najechanie -->
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="LightBlue"/>
+                    <Setter Property="BorderBrush" Value="Blue"/>
+                </Trigger>
+
+                <!-- Kliknięcie -->
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Background" Value="Orange"/>
+                    <Setter Property="BorderBrush" Value="Red"/>
+                </Trigger>
+
+            </Style.Triggers>
+        </Style>
+
+        <!-- Alternatywny styl -->
+        <Style x:Key="AltButtonStyle"
+               TargetType="Button">
+
+            <Setter Property="Margin" Value="3"/>
+            <Setter Property="BorderThickness" Value="5"/>
+            <Setter Property="Background" Value="LightGreen"/>
+            <Setter Property="BorderBrush" Value="DarkGreen"/>
+            <Setter Property="Padding" Value="8"/>
+
+        </Style>
+
+    </Application.Resources>
+
+</Application>
