@@ -1,4 +1,5 @@
 # Programowanie aplikacji desktopowych zaliczenie
+## Adrian Ebertowski 85242, grupa INLN4(hybryda)_SI1
 
 ### Zadanie 1 – Układ okna z panelami i przewijaniem
 
