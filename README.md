@@ -1,1 +1,1 @@
-# programowanie-aplikacji-desktopowych
+# Programowanie aplikacji desktopowych zaliczenie
