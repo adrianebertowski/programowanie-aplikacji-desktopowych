@@ -35,7 +35,7 @@ Po wpisaniu danych:
 - wszystkie wartości są automatycznie odświeżane w interfejsie.
 Zadanie miało na celu poznanie wzorca MVVM oraz komunikacji pomiędzy warstwą danych a interfejsem użytkownika.
 
-Zadanie 4 – Kalkulator
+### Zadanie 4 – Kalkulator
 Celem zadania było stworzenie kalkulatora obsługującego podstawowe oraz rozszerzone operacje matematyczne.
 Zaimplementowane funkcje:
 - dodawanie,
